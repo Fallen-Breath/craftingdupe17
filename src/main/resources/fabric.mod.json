@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
   "id": "craftingdupe17",
-  "version": "1.1.0",
+  "version": "1.1.1",
 
   "name": "craftingdupe17",
-  "description": "",
+  "description": "A lite helper of the 1.17 crafting item dupe",
   "authors": [
     "Fallen_Breath"
   ],
   "contact": {
-    "homepage": "https://www.curseforge.com/",
-    "sources": "https://github.com/"
+    "homepage": "https://github.com/Fallen-Breath/craftingdupe17",
+    "sources": "https://github.com/Fallen-Breath/craftingdupe17"
   },
 
   "icon": "assets/craftingdupe17/icon.png",
