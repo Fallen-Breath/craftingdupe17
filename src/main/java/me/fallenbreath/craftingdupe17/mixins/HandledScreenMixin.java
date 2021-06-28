@@ -1,6 +1,7 @@
 package me.fallenbreath.craftingdupe17.mixins;
 
 import net.minecraft.client.gui.screen.ingame.HandledScreen;
+import net.minecraft.inventory.CraftingInventory;
 import net.minecraft.screen.slot.CraftingResultSlot;
 import net.minecraft.screen.slot.Slot;
 import org.spongepowered.asm.mixin.Mixin;
@@ -19,7 +20,7 @@ public abstract class HandledScreenMixin
 	)
 	private boolean kaboom(Slot slot)
 	{
-		if (slot instanceof CraftingResultSlot)
+		if (slot instanceof CraftingResultSlot || slot.inventory instanceof CraftingInventory)
 		{
 			return true;
 		}
