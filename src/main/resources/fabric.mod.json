@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "template_mod",
+  "id": "craftingdupe17",
   "version": "1.0.0",
 
-  "name": "template_mod",
+  "name": "craftingdupe17",
   "description": "",
   "authors": [
     "Fallen_Breath"
@@ -13,7 +13,7 @@
     "sources": "https://github.com/"
   },
 
-  "icon": "assets/template_mod/icon.png",
+  "icon": "assets/craftingdupe17/icon.png",
 
   "environment": "*",
   "entrypoints": {
@@ -21,12 +21,11 @@
     ]
   },
   "mixins": [
-    "template_mod.mixins.json"
+    "craftingdupe17.mixins.json"
   ],
 
   "depends": {
-    "fabricloader": ">=0.7.1",
-    "minecraft": "1.15.x"
+    "minecraft": ">=1.17"
   },
   "suggests": {
     "flamingo": "*"
