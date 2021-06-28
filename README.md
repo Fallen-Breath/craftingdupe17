@@ -20,9 +20,15 @@ Press `drop item` key (default `Q`) in the output slot, then you can <3 mojang
 | 2          | Item remains |
 | >=3        | Item dupes |
 
+Guess:
+
+![Guess](https://latex.codecogs.com/svg.latex?NewItemCount%20=%20(OldItemCount%20-%201)%20*%202)
+
 ## What it does
 
-What it does is only enabling `drop item` key on crafting output slot no matter the slot is empty or not
+In vanilla empty slot doesn't respond to `drop item` key or `clone item` key at all
+
+What it does is only enabling `drop item` or `clone item` key on crafting output slot, even if the output slot is empty
 
 ## In vanilla
 
