@@ -24,6 +24,10 @@ Guess:
 
 ![Guess](https://latex.codecogs.com/svg.latex?NewItemCount%20=%20(OldItemCount%20-%201)%20*%202)
 
+With this mod you can create an item with really large stack count until int overflow e.g.
+
+![epic item](epic_item.png)
+
 ## What it does
 
 In vanilla empty slot doesn't respond to `drop item` key or `clone item` key at all
