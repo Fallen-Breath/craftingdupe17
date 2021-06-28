@@ -4,9 +4,9 @@
   "package": "me.fallenbreath.craftingdupe17.mixins",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "HandledScreenMixin"
   ],
   "client": [
+    "HandledScreenMixin"
   ],
   "injectors": {
     "defaultRequire": 1

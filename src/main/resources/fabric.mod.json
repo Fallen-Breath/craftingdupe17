@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "craftingdupe17",
-  "version": "1.0.0",
+  "version": "1.1.0",
 
   "name": "craftingdupe17",
   "description": "",
@@ -15,7 +15,7 @@
 
   "icon": "assets/craftingdupe17/icon.png",
 
-  "environment": "*",
+  "environment": "client",
   "entrypoints": {
     "main": [
     ]
