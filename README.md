@@ -1,6 +1,6 @@
 # Crafting Dupe 17
 
-Crafting item duping helper for Minecraft 1.17.x
+Crafting item duping helper for Minecraft 1.17 (Fixed in 1.17.1-pre2)
 
 It's a client side only mod, requires fabric loader only
 
